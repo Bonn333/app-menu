@@ -2863,9 +2863,9 @@ https-proxy-agent@^2.2.1:
     agent-base "^4.1.0"
     debug "^3.1.0"
 
-hyperhtml@^2.13.0:
-  version "2.13.0"
-  resolved "https://registry.yarnpkg.com/hyperhtml/-/hyperhtml-2.13.0.tgz#6eb43fc3dfdd0775374d0b80bb990b05aeba2213"
+hyperhtml@^2.15.0:
+  version "2.15.0"
+  resolved "https://registry.yarnpkg.com/hyperhtml/-/hyperhtml-2.15.0.tgz#05a6886a076e7987ba8e75fa8f1fcef3acc82d41"
   dependencies:
     lightercollective "^0.1.0"
 
