@@ -159,7 +159,7 @@ adbkit@2.11.0:
     node-forge "^0.7.1"
     split "~0.3.3"
 
-addons-linter@1.2.6, addons-linter@^1.3.0:
+addons-linter@1.4.1, addons-linter@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/addons-linter/-/addons-linter-1.3.0.tgz#dcdcaf4dfcb74c336ee1f524e6d44da140ebdefc"
   dependencies:
@@ -2177,9 +2177,10 @@ fined@^1.0.1:
     object.pick "^1.2.0"
     parse-filepath "^1.0.1"
 
-firefox-profile@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/firefox-profile/-/firefox-profile-1.1.0.tgz#50090d1ff62dce3052cc7f46d1243c6a487db47a"
+firefox-profile@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/firefox-profile/-/firefox-profile-1.2.0.tgz#2068227924e714a2b10ec5fba8392e19b5788509"
+  integrity sha512-TTEFfPOkyaz4EWx/5ZDQC1mJAe3a+JgVcchpIfD4Tvx1UspwlTJRJxOYA35x/z2iJcxaF6aW2rdh6oj6qwgd2g==
   dependencies:
     adm-zip "~0.4.x"
     archiver "~2.1.0"
@@ -6617,14 +6618,15 @@ wcwidth@^1.0.0:
   dependencies:
     defaults "^1.0.3"
 
-web-ext@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/web-ext/-/web-ext-2.8.0.tgz#5ac19121805a321d6122f82fac65b6a082bb47c5"
+web-ext@^2.9.3:
+  version "2.9.3"
+  resolved "https://registry.yarnpkg.com/web-ext/-/web-ext-2.9.3.tgz#b842560cac3b4784fce6a31b4cece015eebab1a8"
+  integrity sha512-aZnlxuYOMUUBS5C8NBhhAj7T0ouJexlW5Cx5ObtOheoguG3fqXUl+KTY19L1Am/bJoyHC8otGTgew9Z0WHeTtg==
   dependencies:
     "@cliqz-oss/firefox-client" "0.3.1"
     "@cliqz-oss/node-firefox-connect" "1.2.1"
     adbkit "2.11.0"
-    addons-linter "1.2.6"
+    addons-linter "1.4.1"
     babel-polyfill "6.26.0"
     babel-runtime "6.26.0"
     bunyan "1.8.12"
@@ -6634,7 +6636,7 @@ web-ext@^2.8.0:
     es6-error "4.1.1"
     es6-promisify "5.0.0"
     event-to-promise "0.8.0"
-    firefox-profile "1.1.0"
+    firefox-profile "1.2.0"
     fx-runner "1.0.9"
     git-rev-sync "1.9.1"
     mkdirp "0.5.1"
